@@ -1,16 +1,60 @@
 # android_widget_with_compose_with_flutter
 
-A new Flutter project.
+This project is the setup for the Widget in Android with Jetpack Compose Glance in Flutter.
 
-## Getting Started
+# Step 1 add the follow dependencies libraries
 
-This project is a starting point for a Flutter application.
+```Kotlin
+val composeGlanceWidgetVersion by extra("1.0.0")
 
-A few resources to get you started if this is your first Flutter project:
+dependencies {
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+    //...
+    //Glance Widget
+    implementation("androidx.glance:glance-appwidget:$composeGlanceWidgetVersion")
+    //Using Material 2
+    implementation("androidx.glance:glance-material:$composeGlanceWidgetVersion")
+    //Using Material 3
+    implementation("androidx.glance:glance-material3:$composeGlanceWidgetVersion")
+}
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Steps 2 Create the Glance Receiver class that extend GlanceAppWidgetReceiver() and return the Widget Class
+
+```Kotlin
+class MyAppWidgetReceiver : GlanceAppWidgetReceiver() {
+    override val glanceAppWidget: GlanceAppWidget
+        get() = MyAppWidget()
+}
+```
+
+# Step 3 Create the xml file into the xml directory (configuration to declare the size etc.)
+
+```XML
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="250dp"
+    android:minHeight="50dp"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen">
+</appwidget-provider>
+```
+
+# Step 4 Register the Receiver Class into the Manifest and set the xml configuration for the Glance Widget
+
+```XML
+
+<receiver android:name=".glance_widget.receiver.MyAppWidgetReceiver" android:exported="true">
+    <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+    </intent-filter>
+    <meta-data android:name="android.appwidget.provider"
+        android:resource="@xml/my_app_widget_info" />
+</receiver>
+```
+
+# Step 5 Create the Widget that extend GlanceAppWidget() class
+
+# Reference
+
+https://developer.android.com/jetpack/compose/glance/create-app-widget  <br />
