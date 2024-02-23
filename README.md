@@ -59,3 +59,6 @@ class MyAppWidgetReceiver : GlanceAppWidgetReceiver() {
 # Reference
 
 https://developer.android.com/jetpack/compose/glance/create-app-widget  <br />
+
+Flutter SDK version: 3.19.1 <br />
+Dart Version: 3.3.0 <br />
