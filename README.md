@@ -79,5 +79,5 @@ https://medium.com/@nicosnicolaou/android-widget-setup-with-jetpack-compose-glan
 
 https://developer.android.com/jetpack/compose/glance/create-app-widget  <br />
 
-Flutter SDK version: 3.22.2 <br />
-Dart Version: 3.3.4 <br />
+Flutter SDK version: 3.24.0 <br />
+Dart Version: 3.5.0 <br />
