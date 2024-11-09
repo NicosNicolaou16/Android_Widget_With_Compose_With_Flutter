@@ -9,7 +9,7 @@ https://github.com/NicosNicolaou16/AndroidWidgetWithCompose <br />
 ## Step 1 add the follow dependencies libraries
 
 ```Kotlin
-val composeGlanceWidgetVersion by extra("1.0.0")
+val composeGlanceWidgetVersion by extra("1.1.1")
 
 dependencies {
 
@@ -79,5 +79,5 @@ https://medium.com/@nicosnicolaou/android-widget-setup-with-jetpack-compose-glan
 
 https://developer.android.com/jetpack/compose/glance/create-app-widget  <br />
 
-Flutter SDK version: 3.24.3 <br />
-Dart Version: 3.5.3 <br />
+Flutter SDK version: 3.24.4 <br />
+Dart Version: 3.5.4 <br />
