@@ -74,9 +74,11 @@ class MyAppWidget : GlanceAppWidget() {
 > [!IMPORTANT]
 > Similar project with (Kotlin Language) :point_right: [AndroidWidgetWithCompose](https://github.com/NicosNicolaou16/AndroidWidgetWithCompose) :point_left: <br />
 
-# Reference
-
-https://developer.android.com/jetpack/compose/glance/create-app-widget  <br />
+# Versioning
 
 Flutter SDK version: 3.24.4 <br />
 Dart Version: 3.5.4 <br />
+
+# References
+
+https://developer.android.com/jetpack/compose/glance/create-app-widget  <br />
