@@ -1,6 +1,6 @@
 # android_widget_with_compose_with_flutter
 
-This project is the setup for the Widget in Android with Jetpack Compose Glance in Flutter.
+This project sets up the Widget in Flutter using Jetpack Compose Glance for Android.
 
 ## Similar project with (Kotlin Language)
 
@@ -40,6 +40,7 @@ class MyAppWidgetReceiver : GlanceAppWidgetReceiver() {
     android:initialLayout="@layout/glance_default_loading_layout" android:minWidth="250dp"
     android:minHeight="50dp" android:resizeMode="horizontal|vertical"
     android:widgetCategory="home_screen">
+    
 </appwidget-provider>
 ```
 
