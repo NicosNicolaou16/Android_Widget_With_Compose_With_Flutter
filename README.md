@@ -1,10 +1,8 @@
-# android_widget_with_compose_with_flutter
+# Android_widget_with_compose_with_flutter
 
-This project is the setup for the Widget in Android with Jetpack Compose Glance in Flutter.
+This project sets up the Widget in Flutter using Jetpack Compose Glance for Android.
 
-## Similar project with (Kotlin Language)
-
-https://github.com/NicosNicolaou16/AndroidWidgetWithCompose <br />
+# Setup
 
 ## Step 1 add the follow dependencies libraries
 
@@ -40,6 +38,7 @@ class MyAppWidgetReceiver : GlanceAppWidgetReceiver() {
     android:initialLayout="@layout/glance_default_loading_layout" android:minWidth="250dp"
     android:minHeight="50dp" android:resizeMode="horizontal|vertical"
     android:widgetCategory="home_screen">
+    
 </appwidget-provider>
 ```
 
@@ -71,13 +70,17 @@ class MyAppWidget : GlanceAppWidget() {
 }
 ```
 
-## Check my article
+> [!IMPORTANT]  
+> Check my article for the setup :point_right: [Android Widget Setup with Jetpack Compose Glance (with a Flutter example) - Medium](https://medium.com/@nicosnicolaou/android-widget-setup-with-jetpack-compose-glance-with-a-flutter-example-e07fb63c9466) :point_left: <br />
 
-https://medium.com/@nicosnicolaou/android-widget-setup-with-jetpack-compose-glance-with-a-flutter-example-e07fb63c9466  <br />
+> [!IMPORTANT]
+> Similar project with (Kotlin Language) :point_right: [AndroidWidgetWithCompose](https://github.com/NicosNicolaou16/AndroidWidgetWithCompose) :point_left: <br />
 
-# Reference
+# Versioning
+
+Flutter SDK version: 3.27.1 <br />
+Dart Version: 3.6.0 <br />
+
+# References
 
 https://developer.android.com/jetpack/compose/glance/create-app-widget  <br />
-
-Flutter SDK version: 3.24.4 <br />
-Dart Version: 3.5.4 <br />
