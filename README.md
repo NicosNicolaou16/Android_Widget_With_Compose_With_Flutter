@@ -1,6 +1,8 @@
-# android_widget_with_compose_with_flutter
+# Android_widget_with_compose_with_flutter
 
 This project sets up the Widget in Flutter using Jetpack Compose Glance for Android.
+
+# Setup
 
 ## Step 1 add the follow dependencies libraries
 
