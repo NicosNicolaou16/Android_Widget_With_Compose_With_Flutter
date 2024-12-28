@@ -2,10 +2,6 @@
 
 This project sets up the Widget in Flutter using Jetpack Compose Glance for Android.
 
-## Similar project with (Kotlin Language)
-
-https://github.com/NicosNicolaou16/AndroidWidgetWithCompose <br />
-
 ## Step 1 add the follow dependencies libraries
 
 ```Kotlin
@@ -77,10 +73,6 @@ class MyAppWidget : GlanceAppWidget() {
 
 > [!IMPORTANT]
 > Similar project with (Kotlin Language) :point_right: [AndroidWidgetWithCompose](https://github.com/NicosNicolaou16/AndroidWidgetWithCompose) :point_left: <br />
-
-## Check my article
-
-https://medium.com/@nicosnicolaou/android-widget-setup-with-jetpack-compose-glance-with-a-flutter-example-e07fb63c9466  <br />
 
 # Reference
 
