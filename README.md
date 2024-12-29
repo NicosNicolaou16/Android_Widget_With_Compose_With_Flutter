@@ -2,6 +2,9 @@
 
 This project sets up the Widget in Flutter using Jetpack Compose Glance for Android.
 
+> [!IMPORTANT]
+> NOTE: EXAMPLE FOR ANDROID ONLY. <br />
+
 # Setup
 
 ## Step 1 add the follow dependencies libraries
