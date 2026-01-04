@@ -86,4 +86,4 @@ Dart Version: 3.10.4 <br />
 
 # References
 
-https://developer.android.com/jetpack/compose/glance/create-app-widget  <br />
+- https://developer.android.com/jetpack/compose/glance/create-app-widget  <br />
