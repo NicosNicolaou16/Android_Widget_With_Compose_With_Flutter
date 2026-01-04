@@ -9,7 +9,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  _requestPermissions() async {
+  Future<void> _requestPermissions() async {
     await [
       Permission.location,
       Permission.locationWhenInUse,
