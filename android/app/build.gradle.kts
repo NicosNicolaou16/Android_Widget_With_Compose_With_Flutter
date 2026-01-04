@@ -11,7 +11,7 @@ android {
     namespace = "com.android_widget_with_compose_with_flutter"
     buildToolsVersion = "36.0.0"
     compileSdk = 36
-    ndkVersion = "28.2.13676358"
+    ndkVersion = "29.0.14206865"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_21
