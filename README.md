@@ -81,8 +81,8 @@ class MyAppWidget : GlanceAppWidget() {
 
 # Versioning
 
-Flutter SDK version: 3.38.5 <br />
-Dart Version: 3.10.4 <br />
+Flutter SDK version: 3.42.4 <br />
+Dart Version: 3.11.1 <br />
 
 # References
 
