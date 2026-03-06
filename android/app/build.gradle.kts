@@ -4,7 +4,7 @@ plugins {
     id("com.android.application")
     id("kotlin-android")
     id("dev.flutter.flutter-gradle-plugin")
-    id("org.jetbrains.kotlin.plugin.compose") version "2.3.0"
+    id("org.jetbrains.kotlin.plugin.compose") version "2.3.10"
 }
 
 android {
@@ -78,8 +78,8 @@ val composeGlanceWidgetVersion by extra("1.1.1")
 dependencies {
     implementation("androidx.core:core-ktx:1.17.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.10.0")
-    implementation("androidx.activity:activity-compose:1.12.2")
-    implementation(platform("androidx.compose:compose-bom:2025.12.01"))
+    implementation("androidx.activity:activity-compose:1.12.4")
+    implementation(platform("androidx.compose:compose-bom:2026.02.01"))
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
@@ -87,7 +87,7 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.3.0")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.7.0")
-    androidTestImplementation(platform("androidx.compose:compose-bom:2025.12.01"))
+    androidTestImplementation(platform("androidx.compose:compose-bom:2026.02.01"))
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
