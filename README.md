@@ -16,6 +16,13 @@ This project demonstrates how to implement a native Android Home Screen Widget w
 > [!IMPORTANT]
 > NOTE: EXAMPLE FOR ANDROID ONLY. <br />
 
+> [!IMPORTANT]  
+> Check my article for the setup :point_right: [Android Widget Setup with Jetpack Compose Glance (with a Flutter example) - Medium](https://medium.com/@nicosnicolaou/android-widget-setup-with-jetpack-compose-glance-with-a-flutter-example-e07fb63c9466) :point_left: <br />
+
+> [!IMPORTANT]
+> Similar project with (Kotlin Language) :point_right: [AndroidWidgetWithCompose](https://github.com/NicosNicolaou16/AndroidWidgetWithCompose) :point_left: <br />
+
+
 ## ✨ Features
 
 * **Modern Widget UI:** Uses Jetpack Compose Glance for building responsive app widgets.
@@ -90,12 +97,6 @@ class MyAppWidget : GlanceAppWidget() {
     //....
 }
 ```
-
-> [!IMPORTANT]  
-> Check my article for the setup :point_right: [Android Widget Setup with Jetpack Compose Glance (with a Flutter example) - Medium](https://medium.com/@nicosnicolaou/android-widget-setup-with-jetpack-compose-glance-with-a-flutter-example-e07fb63c9466) :point_left: <br />
-
-> [!IMPORTANT]
-> Similar project with (Kotlin Language) :point_right: [AndroidWidgetWithCompose](https://github.com/NicosNicolaou16/AndroidWidgetWithCompose) :point_left: <br />
 
 ## 🔧 Versioning
 
