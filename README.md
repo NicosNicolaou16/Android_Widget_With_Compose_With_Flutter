@@ -99,7 +99,7 @@ class MyAppWidget : GlanceAppWidget() {
 
 ## 🔧 Versioning
 
-* **Flutter SDK:** `3.42.4`
+* **Flutter SDK:** `3.44.2`
 * **Dart Version:** `3.11.1`
 * **Glance Version:** `1.1.1`
 
