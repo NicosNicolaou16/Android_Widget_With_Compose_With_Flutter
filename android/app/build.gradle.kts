@@ -21,14 +21,12 @@ android {
         compilerOptions {
             jvmTarget = JvmTarget.fromTarget("21")
         }
-    }
-
-    sourceSets {
-        getByName("main") {
-            java.srcDirs("src/main/kotlin")
+        sourceSets {
+            named("main") {
+                kotlin.setSrcDirs(listOf("src/main/kotlin"))
+            }
         }
     }
-
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId = "com.android_widget_with_compose_with_flutter"
