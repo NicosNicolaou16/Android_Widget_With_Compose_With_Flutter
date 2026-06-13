@@ -9,7 +9,7 @@ plugins {
 
 android {
     namespace = "com.android_widget_with_compose_with_flutter"
-    buildToolsVersion = "36.0.0"
+    buildToolsVersion = "37.0.0"
     compileSdk = 37
     ndkVersion = "29.0.14206865"
 
